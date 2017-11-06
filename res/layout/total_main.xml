@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/total_pozadina"
+    tools:context="trn.basicsofastronomy.Total_main" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="0dp" >
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imgPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgSuncev"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:background="@null"
+        android:src="@drawable/up_puzzle" />
+
+    <ImageButton
+        android:id="@+id/imgFacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imgSuncev"
+        android:background="@null"
+        android:src="@drawable/up_facts" />
+
+    <ImageButton
+        android:id="@+id/imgSuncev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@null"
+        android:src="@drawable/up_suncev" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgQuiz"
+        android:layout_alignRight="@+id/imgQuiz"
+        android:layout_below="@+id/imgQuiz"
+        android:text="Kviz"
+        android:textColor="#ffffff" 
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgFacts"
+        android:layout_toRightOf="@+id/imgPuzzle"
+        android:gravity="center"
+        android:text="Zanimljivosti"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:text="Slagalica"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSuncev"
+        android:layout_centerHorizontal="true"
+        android:text="Sunčev sistem"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/imgQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:background="@null"
+        android:src="@drawable/up_quiz" />
+
+</RelativeLayout>

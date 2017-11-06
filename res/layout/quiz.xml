@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/quiz_p1" />
+
+        <RadioGroup
+            android:id="@+id/rgp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p1rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zemlja"
+                android:textColor="#ffffff"
+                android:textColorLink="@android:color/holo_blue_light" />
+
+            <RadioButton
+                android:id="@+id/p1rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptun" />
+
+            <RadioButton
+                android:id="@+id/p1rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p2" />
+
+        <RadioGroup
+            android:id="@+id/rgp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p2rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Triton" />
+
+            <RadioButton
+                android:id="@+id/p2rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.29"
+                android:text="Fobos" />
+
+            <RadioButton
+                android:id="@+id/p2rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesec" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p3" />
+
+        <RadioGroup
+            android:id="@+id/rgp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p3rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kepler" />
+
+            <RadioButton
+                android:id="@+id/p3rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galilej" />
+
+            <RadioButton
+                android:id="@+id/p3rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Habl" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p4" />
+
+        <RadioGroup
+            android:id="@+id/rgp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p4rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirijus" />
+
+            <RadioButton
+                android:id="@+id/p4rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapela" />
+
+            <RadioButton
+                android:id="@+id/p4rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denebola" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p5" />
+
+        <RadioGroup
+            android:id="@+id/rgp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p5rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venera" />
+
+            <RadioButton
+                android:id="@+id/p5rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uran" />
+
+            <RadioButton
+                android:id="@+id/p5rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p6" />
+
+        <RadioGroup
+            android:id="@+id/rgp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p6rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Komete" />
+
+            <RadioButton
+                android:id="@+id/p6rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asteroidi" />
+
+            <RadioButton
+                android:id="@+id/p6rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meteori" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p7" />
+
+        <RadioGroup
+            android:id="@+id/rgp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p7rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mars" />
+
+            <RadioButton
+                android:id="@+id/p7rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter" />
+
+            <RadioButton
+                android:id="@+id/p7rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptun" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p8" />
+
+        <RadioGroup
+            android:id="@+id/rgp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p8rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merkur" />
+
+            <RadioButton
+                android:id="@+id/p8rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zemlja" />
+
+            <RadioButton
+                android:id="@+id/p8rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uran" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p9" />
+
+        <RadioGroup
+            android:id="@+id/rgp9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p9rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptun" />
+
+            <RadioButton
+                android:id="@+id/p9rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn" />
+
+            <RadioButton
+                android:id="@+id/p9rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venera" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_p10" />
+
+        <RadioGroup
+            android:id="@+id/rgp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/p10rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fotoni" />
+
+            <RadioButton
+                android:id="@+id/p10rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahioni" />
+
+            <RadioButton
+                android:id="@+id/p10rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kvarkovi" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnProveri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Proveri odgovore" />
+    </LinearLayout>
+
+</ScrollView>
